@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+main{
+    padding-top: 20px;
+    background-color: #eee;
+}
+h1{
+    color:red;
+    padding: 20px 0 20px 0;
+
+}
+.center-text{
+    font-family: sans-serif;
+    text-align:center;
+    list-style-position: inside;
+}
+.top{
+    margin: 0 auto;
+    width: 100%;
+}
+header{
+    background-color: azure;
+}
+header > p{
+    padding-bottom: 20px;
+}
+img, figcaption{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+figure>figcaption{
+    padding:10px 0 10px 0;
+}
+ul>li{
+    text-align: left;
+    padding: 10px 10px 10px 10px;
+}
+ul{
+    padding-bottom: 30px;
+}
